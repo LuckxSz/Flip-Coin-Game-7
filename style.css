@@ -126,18 +126,23 @@ button:active {
 }
 
 @media (max-width: 500px) {
-  * {
-    box-sizing: border-box;
-  }
+
   body {
-    height: 60%;
     background: linear-gradient(to right, #ffffff 50%, #000000 50%) fixed;
   }
-
   .container {
     background: #000000;
+    width: 250px;
   }
-
+  .buttons {
+    gap: 8px;
+    display: flex;
+  }
+  .stats {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 25px;
+  }
   #flip-button {
     background: #000202;
     color: rgb(255, 255, 255);
@@ -154,7 +159,7 @@ button:active {
     border: #001524;
   }
   .stats {
-    color: white;
+    color: rgb(255, 255, 255), 0, 0);
     font-weight: 500;
     line-height: 25px;
   }
