@@ -126,7 +126,6 @@ button:active {
 }
 
 @media (max-width: 500px) {
-
   body {
     background: linear-gradient(to right, #ffffff 50%, #000000 50%) fixed;
   }
@@ -159,8 +158,6 @@ button:active {
     border: #001524;
   }
   .stats {
-    color: rgb(255, 255, 255), 0, 0);
-    font-weight: 500;
-    line-height: 25px;
+    color: white;
   }
 }
